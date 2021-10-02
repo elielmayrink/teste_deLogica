@@ -43,8 +43,6 @@ function corridas(motoboy) {
                                     .reduce((valor, acc) => valor + acc) * (loja.pedidos.porcentagemDeComissao / 100))
                                     .reduce((valor, acc) => valor + acc) + taxa
 
-    console.log(valoresTotais, valorRecebidoPeloMotoboy)
-
     return console.log(
         `O motoboy se chama 
         ${nomeDoMotoboy}, e ele carrega consigo ${qtdPedidos} pedidos,
